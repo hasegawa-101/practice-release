@@ -1,5 +1,0 @@
----
-"practice-release": minor
----
-
-minor
