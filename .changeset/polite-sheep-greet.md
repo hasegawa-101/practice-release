@@ -2,4 +2,4 @@
 "practice-release": major
 ---
 
-Major
+Major test
