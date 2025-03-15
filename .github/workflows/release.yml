@@ -38,5 +38,9 @@ jobs:
         with:
           version: pnpm version
 
+      - name: Publish Package
+        run: pnpm publish --access public
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
