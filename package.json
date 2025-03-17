@@ -3,11 +3,6 @@
   "version": "0.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "changeset": "changeset",
-    "version": "changeset version",
-    "release": "changeset publish"
-  },
   "devDependencies": {
     "@changesets/cli": "^2.28.1"
   }
